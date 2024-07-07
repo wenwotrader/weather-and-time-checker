@@ -15,10 +15,58 @@ body{
 
 .text{
     text-align: center;
-    color: #ffffff;
+    color: #3c72a8;
     font-size: 66px;
     margin-top: 100px;
-    border-bottom: 3px solid #ffffff;
-    border-top: 3px solid #ffffff;
 }
 
+.main{
+    margin-top: 30px;
+    background: #ffffff;
+}
+
+#city-name{
+    text-align: center;
+    font-size: 36px;
+    padding: 30px 0;
+    color: #3c72a8;
+}
+
+img{
+    width: 50px;
+}
+#city-temp{
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 36px;
+    top: -5px;
+}
+#city-temp__max{
+    display: inline-block;
+}
+#city-temp__min{
+    display: inline-block;
+}
+.main_content__maxmin{
+    display: flex;
+    flex-direction: column;
+}
+.main_content-temp{
+    display: flex;
+    margin: 0 20px;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+}
+
+#city-weather, #city-dates, #gust, #speed{
+    display: inline-block;
+}
+.main__weather{}
+
+.link {
+    
+}
